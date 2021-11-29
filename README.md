@@ -14,6 +14,7 @@ Before running Ticket_Viewer.py, you must first set up some environment variable
   export Zendesk_url='your url' ~ this should point to the tickets api and at the end of the url be sure to put ?page[size]=25
   
   
+  
 To delete the environment variables after using the application, use the following command
   unset 'variable name'
   
@@ -22,19 +23,19 @@ You can run this Python script directly from your terminal/console or from a tex
 # Dependencies
   -> Python3
   
-  -> requests library
+  -> requests (library)
 	
-  -> dotenv library
+  -> dotenv (library)
   
-  -> os library
+  -> os (library)
   
-  -> configparser library
+  -> configparser (library)
   
-  -> requests.auth - HTTPBasicAuth library
+  -> requests.auth - HTTPBasicAuth (library)
   
-  -> unittest libary
+  -> unittest (library)
   
-  -> assertpy library
+  -> assertpy (library)
   
 # Other information
 I used Python for this project because I am attempting to get more experience with the language
